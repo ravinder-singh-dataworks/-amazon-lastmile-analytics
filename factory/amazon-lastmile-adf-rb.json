@@ -1,0 +1,15 @@
+{
+	"name": "amazon-lastmile-adf-rb",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "63553199-b7b2-411a-9a80-f5ad2f0ba945",
+		"tenantId": "b28f799b-775e-4d4f-86f4-ea9092af7415"
+	}
+}
