@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "amazon-processed",
+				"folderPath": "Amazon_processed",
 				"fileSystem": "silver"
 			}
 		},
