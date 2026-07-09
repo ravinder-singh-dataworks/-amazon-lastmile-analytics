@@ -11,7 +11,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": "*.json ",
-				"folderPath": "amazon-raw-files",
+				"folderPath": "Amazon_raw_files ",
 				"fileSystem": "bronze"
 			}
 		},
