@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "*.json ",
-				"folderPath": "Amazon_raw_files ",
+				"fileName": "*.json",
+				"folderPath": "Amazon_raw_files",
 				"fileSystem": "bronze"
 			}
 		},
