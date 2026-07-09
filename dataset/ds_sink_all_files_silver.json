@@ -1,0 +1,19 @@
+{
+	"name": "ds_sink_all_files_silver",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_amazonlastmile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "amazon-processed",
+				"fileSystem": "silver"
+			}
+		},
+		"schema": {}
+	}
+}

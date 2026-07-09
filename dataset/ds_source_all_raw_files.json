@@ -1,0 +1,19 @@
+{
+	"name": "ds_source_all_raw_files",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_amazonlastmile",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Amazon_raw_files",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	}
+}
